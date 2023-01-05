@@ -1,0 +1,168 @@
+*
+{
+   overflow: hidden;
+}
+
+body
+{ 
+   background:linear-gradient(to left,#ffd000,#ffa600);
+}
+header
+{
+  background:linear-gradient(to left,#ffd000,#ffa600);
+width:100%;
+  position: relative;
+}
+
+#MainLogo
+{
+    height:100px;
+}
+.log_sign
+{
+    text-align: center;
+    margin-left: 950px;
+}
+#btnclr
+{
+    background-color: blueviolet;
+}
+
+.MainLearnPlay
+{
+    text-align: center;
+    padding-top:50px;
+    padding-bottom: 210px;
+}
+
+.img
+{
+    border-color: transparent;
+    padding: 100px ;
+  /*  border:  solid rgb(255, 255, 255) ;
+    border-radius: 30px ;
+    display: inline-block;*/
+}
+#Learn > h1
+{
+  font-family: cursive;
+}
+.MainLearnPlay > h1 
+{
+    font-family: cursive;
+    padding-top:110px;
+    padding-bottom: 30px;
+    font-size: 70px;
+}
+
+#Learn ,#Colors , #Shapes , #Numbers
+{
+    text-align: center;
+    padding-top:200px;
+    padding-bottom: 210px;
+}
+#backbutton
+{
+    width: 600px;
+        padding: 15px 25px;
+        margin-left: 50px;
+        font-size: 24px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: rgb(71, 13, 78);
+        background-color: #9791f173;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+      }
+      
+     #backbutton:hover {background-color: rgba(153, 50, 204, 0.801)}
+      
+     #backbutton:active {
+        background-color: rgb(153, 50, 204);
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      }
+    
+
+
+  /*.button {
+    border-radius: 15px;
+    background-color: rgba(153, 50, 204, 0.801);
+    box-shadow: 0 6px #999;
+    border: none;
+    color: #FFFFFF;
+    font-size: 17px;
+    margin-left: 890px;
+    padding:10px;
+    width: 120px;
+    transition: all 0.5s;
+    cursor: pointer;
+   }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s; 
+  }
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .button:hover span {
+    padding-right: 25px;}
+  .button:hover span:after{
+    opacity: 1;
+    right: 0; }*/
+  .column {
+    float: left;
+    width: 100%;
+    flex: 10%; }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    display: flex; }
+  
+    .img:hover {
+        /* Start the shake animation and make the animation last for 0.5 seconds */
+        animation: shake 0.5s;
+      
+        /* When the animation is finished, start again */
+        animation-iteration-count: infinite;
+      }
+      
+      @keyframes shake {
+        0% { transform: translate(1px, 1px) rotate(0deg); }
+        10% { transform: translate(-1px, -2px) rotate(-1deg); }
+        20% { transform: translate(-3px, 0px) rotate(1deg); }
+        30% { transform: translate(3px, 2px) rotate(0deg); }
+        40% { transform: translate(1px, -1px) rotate(1deg); }
+        50% { transform: translate(-1px, 2px) rotate(-1deg); }
+        60% { transform: translate(-3px, 1px) rotate(0deg); }
+        70% { transform: translate(3px, 1px) rotate(-1deg); }
+        80% { transform: translate(-1px, -1px) rotate(1deg); }
+        90% { transform: translate(1px, 2px) rotate(0deg); }
+        100% { transform: translate(1px, -2px) rotate(-1deg); }
+      }
+   
+      #drop
+      { 
+        overflow: hidden;
+        border-radius: 15px;
+        background-color: rgba(153, 50, 204, 0.801);
+        box-shadow: 0 6px #999;
+        border: none;
+        color: #FFFFFF;
+        font-size: 17px;
+        margin-left: 1200px;
+        padding: 10px;
+        transition: all 0.5s;
+        cursor: pointer; 
+      }
+   
